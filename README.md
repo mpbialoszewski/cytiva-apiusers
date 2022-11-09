@@ -1,19 +1,18 @@
-### API Docs 
+# API Docs
 
 Gems used 
  - bcrypt - encryption of password to SecureRandom.hex 
  - faker - generating fake data for testing usage 
 
-
 Attributes 
 
-# Username 
+## Username 
 string
-# Email 
+## Email 
 Unique string that does not repeat 
-# Password 
+## Password 
 Verified sequence of strings, either automatically generated or provided by user upon creation
-# Token_digest
+## Token_digest
 Using SecureRandom library for creating hexadecimal string for extra security 
 
 
@@ -28,15 +27,15 @@ For Postman
 Set the attributes for username: and email: once new user is created 
 
 
-## Conclusion 
-# What is working 
+# Conclusion 
+## What is working 
 - Creation of user 
 - Encryption of password 
 - Actions create/post/delete withouth authentication 
 - Actions post/create with authentication 
 - Headers and status codes 
 
-# What needs working on 
+## What needs working on 
 - route for delete 
 - better warnings and headers for endpoints 
 - adding tests for each method
